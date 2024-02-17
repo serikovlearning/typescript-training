@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400&display=swap');
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.code {
+    display: block;
+    width: fit-content;
+    padding: 6px 16px;
+    border-radius: 8px;
+    margin: 10px 0 0;
+    font-family: "Kode Mono";
+
+    background-color: #333;
+    color: #fefefe;
+}
