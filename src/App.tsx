@@ -1,9 +1,9 @@
-import FixTheRouter from './modules/fix-the-router'
+import { Types } from './modules/types'
 import './styles/index.css'
 
 function App () {
     return <div className='container'>
-        <FixTheRouter />
+        <Types />
     </div>
 }
 
